@@ -39,35 +39,30 @@ http://dovizapi.epizy.com/kurlar/USD
     <td>EUR</td>
     <td>EURO</td>
   </tr>
-  
-    <tr>
+   <tr>
     <td>GBP</td>
     <td>POUND STERLING</td>
   </tr>
-      <tr>
+   <tr>
     <td>CHF</td>
     <td>SWISS FRANK</td>
   </tr>
-  
-       <tr>
+   <tr>
     <td>SEK</td>
     <td>SWEDISH KRONA</td>
   </tr>
-  
-       <tr>
+   <tr>
     <td>CAD</td>
     <td>CANADIAN DOLLAR</td>
   </tr>
-  
-       <tr>
+   <tr>
     <td>KWD</td>
     <td>KUWAITI DINAR</td>
   </tr>
-         <tr>
+    <tr>
     <td>NOK</td>
     <td>NORWEGIAN KRONE</td>
   </tr>
-  
  <tr>
     <td>SAR</td>
     <td>SAUDI RIYA</td>
@@ -84,12 +79,11 @@ http://dovizapi.epizy.com/kurlar/USD
     <td>RON</td>
     <td>NEW LEV</td>
   </tr>
-      <tr>
+   <tr>
     <td>RUB</td>
     <td>RUSSIAN ROUBLE</td>
   </tr>
-  
-       <tr>
+   <tr>
     <td>IRR</td>
     <td>IRANIAN RIAL</td>
   </tr>
