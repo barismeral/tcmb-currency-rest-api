@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^kurlar?$ index.php
+RewriteRule ^kurlar/?$ index.php
+
+RewriteRule ^kurlar/([A-Za-z]+) index.php?id=$1
