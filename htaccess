@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^currencys?$ index.php
-RewriteRule ^currencys/?$ index.php
+RewriteRule ^kurlar?$ index.php
+RewriteRule ^kurlar/?$ index.php
 
-RewriteRule ^currencys/([0-9]+) index.php?id=$1
+RewriteRule ^kurlar/([A-Za-z]+) index.php?id=$1

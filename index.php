@@ -1,23 +1,14 @@
 <?php
 
-require('./xmlparser.php');
+require('./api.php');
 
-$parser = new XmlParser;
-
-$json = null;
-
-$id =null;
+$parser = new API;
 
 if($_GET){
 
     $id = $_GET['id'];
 
-    if($id>18){
-        echo 'null';
-        die;
-    }
-
-     $json = $parser->getCurrency((int)$id);
+     $json = $parser->getCurrency((string)$id);
     
     header('Content-Type: application/json');
 
@@ -26,6 +17,5 @@ if($_GET){
 }
 else
   echo $parser->getCurrencys();
-
 
 ?>
