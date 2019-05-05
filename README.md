@@ -1,35 +1,108 @@
-# tcmb-currency-rest-api
-TCMB dan günlük döviz kurlarını veren Rest API
 
-## get all currencys
-http://currencyapi.epizy.com/currencys
+# TCMB dan günlük döviz kurlarını veren Rest API
+
+## Bütün döviz kurlarını verir.
+http://dovizapi.epizy.com/kurlar
 
 
-## get only selected currency
-http://currencyapi.epizy.com/currencys/0
-### output
+## Gönderilen GET isteğine göre kuru verir
+http://dovizapi.epizy.com/kurlar/USD
+
+
+### çıktı olarak Amerikan Doları
 <code>
-  {"CurrencyName":"US DOLLAR","BanknoteBuying":5.9560,"BanknoteSelling":5.9799}
-  </code>
+  {"Doviz":"US DOLLAR","Alis":5.9560,"Satis":5.9799}
+</code>
 
 
-# Avaliable all currencys
-0 - US DOLLAR <br>
-1 - AUSTRALIAN DOLLAR <br>
-2 - DANISH KRONE<br>
-3 - EURO<br>
-4 - POUND STERLING<br>
-5 - SWISS FRANK<br>
-6 - SWEDISH KRONA <br>
-7 - CANADIAN DOLLAR<br>
-8 - KUWAITI DINAR<br>
-9 - NORWEGIAN KRONE<br>
-10 - SAUDI RIYAL<br>
-11 - JAPENESE YEN<br>
-12 - BULGARIAN LEV<br>
-13 - NEW LEU<br>
-14 - RUSSIAN ROUBLE<br>
-12 - IRANIAN RIAL<br>
-16 - CHINESE RENMINBI<br>
-17 - PAKISTANI RUPEE<br>
-18 - QATARI RIAL<br>
+# Desteklenen döviz kurları Tablosu
+<table>
+   <tr>
+    <th>GET Parametresi</th>
+    <th>Döviz Kuru</th>
+  </tr>
+   <tr>
+    <td>USD</td>
+    <td>US DOLLAR</td>
+  </tr>
+   <tr>
+    <td>AUD</td>
+    <td>AUSTRALIAN DOLLAR</td>
+  </tr>
+  
+   <tr>
+    <td>DKK</td>
+    <td>DANISH KRONER</td>
+  </tr>
+  
+  <tr>
+    <td>EUR</td>
+    <td>EURO</td>
+  </tr>
+  
+    <tr>
+    <td>GBP</td>
+    <td>POUND STERLING</td>
+  </tr>
+      <tr>
+    <td>CHF</td>
+    <td>SWISS FRANK</td>
+  </tr>
+  
+       <tr>
+    <td>SEK</td>
+    <td>SWEDISH KRONA</td>
+  </tr>
+  
+       <tr>
+    <td>CAD</td>
+    <td>CANADIAN DOLLAR</td>
+  </tr>
+  
+       <tr>
+    <td>KWD</td>
+    <td>KUWAITI DINAR</td>
+  </tr>
+         <tr>
+    <td>NOK</td>
+    <td>NORWEGIAN KRONE</td>
+  </tr>
+  
+ <tr>
+    <td>SAR</td>
+    <td>SAUDI RIYA</td>
+  </tr>
+   <tr>
+    <td>JPY</td>
+    <td>JAPENESE YEN</td>
+  </tr>
+    <tr>
+    <td>BGN</td>
+    <td>BULGARIAN LEV</td>
+  </tr>
+     <tr>
+    <td>RON</td>
+    <td>NEW LEV</td>
+  </tr>
+      <tr>
+    <td>RUB</td>
+    <td>RUSSIAN ROUBLE</td>
+  </tr>
+  
+       <tr>
+    <td>IRR</td>
+    <td>IRANIAN RIAL</td>
+  </tr>
+        <tr>
+    <td>CNY</td>
+    <td>CHINESE RENMINBI</td>
+  </tr>
+         <tr>
+    <td>PKR</td>
+    <td>PAKISTANI RUPEE</td>
+  </tr>
+          <tr>
+    <td>QAR</td>
+    <td>QATARI RIAL/td>
+  </tr>
+ </table>
