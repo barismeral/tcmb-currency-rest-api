@@ -95,8 +95,9 @@ http://dovizapi.epizy.com/kurlar/USD
     <td>PKR</td>
     <td>PAKISTANI RUPEE</td>
   </tr>
-          <tr>
+   <tr>
     <td>QAR</td>
-    <td>QATARI RIAL/td>
+    <td>QATARI RIAL</td>
   </tr>
+  
  </table>
